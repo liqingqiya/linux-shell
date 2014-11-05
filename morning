@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "morning or afternoon"
+read input
+
+#空格很重要，否则会被认为是赋值操作
+if [ "$input" = "yes" ]
+then 
+    echo "good morning"
+elif [ "$input" = "no" ];then
+    echo "good afternoon"
+else
+    echo "sorry, i can't understand you!"
+fi

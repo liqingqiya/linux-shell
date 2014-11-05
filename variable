@@ -1,0 +1,24 @@
+#!/bin/bash
+
+myvar="Hi there"
+
+echo $myvar
+echo "$myvar"
+echo '$myvar'
+echo \$myvar
+
+echo Enter some text
+read myvar
+
+echo '$myvar' now equals $myvar
+
+echo '$HOME' now equals $HOME
+echo '$PATH' now equals $PATH
+echo '$PS1' now equals $PS1
+echo '$PS2' now equals $PS2
+echo '$IFS' now equals $IFS
+echo '$0' now equals $0
+echo '$#' now equals $#
+echo '$$' now equals $$
+
+exit 0
